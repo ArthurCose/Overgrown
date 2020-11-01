@@ -34,7 +34,7 @@ execute unless score $plant_type overgrowth_grown matches 3 run spreadplayers ~ 
 
 execute at @s if block ~ ~-1 ~ grass_block run function overgrowth:spread/spread
 execute at @s positioned ~ ~-1 ~ if block ~ ~ ~ grass if block ~ ~-1 ~ grass_block run function overgrowth:spread/spread
-execute at @s positioned ~ ~-1 ~ if block ~ ~ ~ grass if block ~ ~-1 ~ grass_block run function overgrowth:spread/spread
+execute at @s positioned ~ ~-1 ~ if block ~ ~ ~ fern if block ~ ~-1 ~ grass_block run function overgrowth:spread/spread
 execute at @s positioned ~ ~-2 ~ if block ~ ~ ~ tall_grass if block ~ ~-1 ~ grass_block run function overgrowth:spread/spread
 execute at @s positioned ~ ~-2 ~ if block ~ ~ ~ large_fern if block ~ ~-1 ~ grass_block run function overgrowth:spread/spread
 
