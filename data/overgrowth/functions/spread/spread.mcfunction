@@ -1,3 +1,5 @@
+setblock ~ ~1 ~ air
+
 execute if score $plant_type overgrowth_grown matches 1 run setblock ~ ~ ~ fern
 execute if score $plant_type overgrowth_grown matches 2 run setblock ~ ~ ~ sweet_berry_bush
 
