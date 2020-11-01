@@ -9,4 +9,5 @@ execute if block ~ ~-1 ~ fern run setblock ~ ~-1 ~ large_fern
 # order matters
 execute if block ~ ~-1 ~ grass run setblock ~ ~ ~ tall_grass[half=upper]
 execute if block ~ ~-1 ~ grass run setblock ~ ~-1 ~ tall_grass
-execute if block ~ ~ ~ air if block ~ ~-1 ~ grass_block run setblock ~ ~ ~ grass
+execute if block ~ ~-1 ~ grass_block run setblock ~ ~ ~ grass
+execute if block ~ ~-1 ~ grass_path run setblock ~ ~-1 ~ grass_block
