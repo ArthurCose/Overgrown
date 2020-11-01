@@ -28,7 +28,9 @@ execute if block ~ ~ ~ acacia_leaves run scoreboard players set $plant_type over
 execute if block ~ ~ ~ birch_leaves run scoreboard players set $plant_type overgrowth_grown 21
 
 ## spread
-spreadplayers ~ ~ 0 32 false @s
+# bamboo can only spread up to 1 block away
+execute if score $plant_type overgrowth_grown matches 3 run spreadplayers ~ ~ 0 1 false @s
+execute unless score $plant_type overgrowth_grown matches 3 run spreadplayers ~ ~ 0 32 false @s
 
 execute at @s if block ~ ~-1 ~ grass_block run function overgrowth:spread/spread
 execute at @s positioned ~ ~-1 ~ if block ~ ~ ~ grass if block ~ ~-1 ~ grass_block run function overgrowth:spread/spread
