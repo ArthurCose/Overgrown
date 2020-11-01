@@ -1,6 +1,7 @@
 execute if block ~ ~-1 ~ #small_flowers positioned ~ ~-1 ~ run function overgrowth:spread/attempt_spread
 execute if block ~ ~-1 ~ #leaves positioned ~ ~-1 ~ run function overgrowth:spread/attempt_spread
 execute if block ~ ~-1 ~ sweet_berry_bush positioned ~ ~-1 ~ run function overgrowth:spread/attempt_spread
+execute if block ~ ~-1 ~ bamboo positioned ~ ~-1 ~ run function overgrowth:spread/attempt_spread
 # order matters
 execute if block ~ ~-1 ~ large_fern positioned ~ ~-1 ~ run function overgrowth:spread/attempt_spread
 execute if block ~ ~-1 ~ fern run setblock ~ ~ ~ large_fern[half=upper]
