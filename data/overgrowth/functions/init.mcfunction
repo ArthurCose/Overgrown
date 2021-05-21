@@ -1,2 +1,2 @@
-scoreboard objectives add overgrowth_grown dummy
-scoreboard players set $grown overgrowth_grown 0
+scoreboard objectives add overgrown_grown dummy
+scoreboard players set $grown overgrown_grown 0

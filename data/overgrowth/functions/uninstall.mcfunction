@@ -1,1 +1,1 @@
-scoreboard objectives remove overgrowth_grown
+scoreboard objectives remove overgrown_grown
